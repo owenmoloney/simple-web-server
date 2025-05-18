@@ -1,0 +1,121 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Owen Moloney – Software Engineer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-content">
+      <h1>Owen Moloney</h1>
+      <h2>Software Engineer | Developer | Student</h2>
+      <p>Passionate about building clean, impactful software that solves real-world problems.</p>
+      <a href="#projects" class="btn">See My Work</a>
+    </div>
+  </header>
+</body>
+  <section id="about" style="padding: 80px 20px; text-align: center; background-color: #ffffff;">
+	<h2>About Me</h2>
+	<p style="font-size: 1.2em;">I’m Owen Moloney, an aspiring software engineer with a strong foundation in biochemistry and mathematics. Currently, I am pursuing a B.S. in Computer Science at Fordham University. I have developed a deep passion for software development, mobile app development, and data science. I'm always eager to learn new technologies and solve real-world problems with them.</p>
+	
+	<h3>Brief Background</h3>
+	<p style="font-size: 1.2em;">With a background in biochemistry and mathematics, I transitioned to software engineering where I have spent over 240 hours honing my skills in C++, Java, Swift, and various database technologies such as MongoDB and Firebase. My journey also includes completing internships and courses that helped me build projects involving real-world applications such as mobile apps and data analytics.</p>
+	
+	<h3>What I’m Passionate About</h3>
+	<p style="font-size: 1.2em;">I'm passionate about creating technology that improves lives, whether through building mobile apps, working with databases, or diving into the world of machine learning and AI. I thrive in environments that encourage collaboration and problem-solving, where I can continue to grow as a software engineer.</p>
+	
+	<a href="path/to/Owen_Moloney_Resume.pdf" download="Owen_Moloney_Resume.pdf" style="padding: 12px 24px; background-color: #28a745; color: white; text-decoration: none; border-radius: 6px;">Download My Resume</a>
+  </section>
+
+
+  <section id="projects" style="padding: 80px 20px; background-color: #f8f9fa;">
+	<h2>Projects</h2>
+	<div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
+	  <!-- Example Project 1 -->
+	  <div style="width: 30%; margin-bottom: 40px; text-align: center;">
+		<h3>Subletting App for Fordham University</h3>
+		<p style="font-size: 1.1em;">A mobile app designed to allow Fordham students to list and search sublets. Built using Swift and Firebase. Features include dynamic filtering and instant chat between users.</p>
+		<img src="path/to/screenshot1.png" alt="Project Screenshot 1" style="max-width: 100%; height: auto; border-radius: 10px;">
+		<br>
+		<a href="https://github.com/yourusername/project1" target="_blank" style="text-decoration: none; color: #007bff;">GitHub</a> | 
+		<a href="https://live-demo-link.com" target="_blank" style="text-decoration: none; color: #007bff;">Live Demo</a>
+	  </div>
+  
+	  <!-- Example Project 2 -->
+	  <div style="width: 30%; margin-bottom: 40px; text-align: center;">
+		<h3>Data Analytics for Real Estate</h3>
+		<p style="font-size: 1.1em;">Developed a data analytics tool using Java to parse and analyze real estate listings and generate insights for a realtor company.</p>
+		<img src="path/to/screenshot2.png" alt="Project Screenshot 2" style="max-width: 100%; height: auto; border-radius: 10px;">
+		<br>
+		<a href="https://github.com/yourusername/project2" target="_blank" style="text-decoration: none; color: #007bff;">GitHub</a> | 
+		<a href="https://live-demo-link.com" target="_blank" style="text-decoration: none; color: #007bff;">Live Demo</a>
+	  </div>
+  
+	  <!-- Example Project 3 -->
+	  <div style="width: 30%; margin-bottom: 40px; text-align: center;">
+		<h3>High-Atmosphere Rocket Design</h3>
+		<p style="font-size: 1.1em;">Collaborated in the design and simulation of a high-atmosphere rocket, utilizing MATLAB and C++. Focused on flight dynamics and performance predictions.</p>
+		<img src="path/to/screenshot3.png" alt="Project Screenshot 3" style="max-width: 100%; height: auto; border-radius: 10px;">
+		<br>
+		<a href="https://github.com/yourusername/project3" target="_blank" style="text-decoration: none; color: #007bff;">GitHub</a> | 
+		<a href="https://live-demo-link.com" target="_blank" style="text-decoration: none; color: #007bff;">Live Demo</a>
+	  </div>
+	</div>
+  </section>
+  
+  <section id="skills" style="padding: 80px 20px; background-color: #ffffff; text-align: center;">
+	<h2>Skills & Technologies</h2>
+	<div style="display: flex; justify-content: center; flex-wrap: wrap;">
+	  <div style="width: 150px; margin: 20px; text-align: center;">
+		<img src="path/to/cplusplus-icon.png" alt="C++" style="width: 50px; height: 50px;">
+		<p>C++</p>
+	  </div>
+	  <div style="width: 150px; margin: 20px; text-align: center;">
+		<img src="path/to/java-icon.png" alt="Java" style="width: 50px; height: 50px;">
+		<p>Java</p>
+	  </div>
+	  <div style="width: 150px; margin: 20px; text-align: center;">
+		<img src="path/to/swift-icon.png" alt="Swift" style="width: 50px; height: 50px;">
+		<p>Swift</p>
+	  </div>
+	  <div style="width: 150px; margin: 20px; text-align: center;">
+		<img src="path/to/firebase-icon.png" alt="Firebase" style="width: 50px; height: 50px;">
+		<p>Firebase</p>
+	  </div>
+	  <div style="width: 150px; margin: 20px; text-align: center;">
+		<img src="path/to/mongodb-icon.png" alt="MongoDB" style="width: 50px; height: 50px;">
+		<p>MongoDB</p>
+	  </div>
+	  <div style="width: 150px; margin: 20px; text-align: center;">
+		<img src="path/to/aws-icon.png" alt="AWS" style="width: 50px; height: 50px;">
+		<p>AWS</p>
+	  </div>
+	</div>
+  </section>
+  
+  <section id="experience" style="padding: 80px 20px; background-color: #f8f9fa;">
+	<h2>Experience & Education</h2>
+	<h3>Internships</h3>
+	<p style="font-size: 1.1em;">Summer 2024: Software Engineering Intern at Alpha Prime Tech. Worked on Java projects, data analytics for a realtor company, and mobile app development for a non-profit organization.</p>
+	
+	<h3>Education</h3>
+	<p style="font-size: 1.1em;">B.S. in Computer Science, Fordham University, expected graduation in June 2026. GPA: 3.5. Dean’s List (2nd semester freshman year, 1st semester sophomore year).</p>
+	<p style="font-size: 1.1em;">High School: Chaminade High School, Honor Roll (3 years).</p>
+  </section>
+  
+  <section id="contact" style="padding: 80px 20px; background-color: #ffffff; text-align: center;">
+	<h2>Contact</h2>
+	<p style="font-size: 1.2em;">Feel free to reach out to me via email or connect with me on LinkedIn and GitHub!</p>
+	
+	<p>Email: <a href="mailto:omoloney@fordham.edu" style="color: #007bff;">omoloney@fordham.edu</a></p>
+	<p>
+	  <a href="https://www.linkedin.com/in/owenmoloney/" target="_blank" style="margin-right: 20px; text-decoration: none; color: #007bff;">LinkedIn</a>
+	  <a href="https://github.com/omoloney" target="_blank" style="text-decoration: none; color: #007bff;">GitHub</a>
+	</p>
+  </section>
+  
+
+</html>
