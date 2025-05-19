@@ -23,6 +23,7 @@ body {
   border-bottom: 1px solid #30363d; /* Optional: adds a subtle line at the bottom */
 }
 
+
 .nav-left {
   font-size: 1.2rem;
   font-weight: bold;
@@ -47,6 +48,7 @@ body {
 
 .nav-links li a:hover {
   color: #61dafb;
+  border-bottom: 2px solid #00bfff;
 }
 
 #hero {
@@ -76,7 +78,8 @@ body {
   grid-row: 1;
   font-size: 3.5rem;         /* was 3rem — slightly larger */
   font-weight: 800;          /* bolder */
-  color: #747474;            /* optional: pure white for stronger contrast */
+  color: #747474;  
+  font-family: 'Poppings', sans-serif;          /* optional: pure white for stronger contrast */
 }
 
 .item.title {
@@ -86,6 +89,7 @@ body {
   font-family: 'Roboto Slab', serif; /* Add a serif font for contrast */
   font-style: italic;
   color: #8b949e;
+  font-family: 'Poppings', sans-serif;          /* optional: pure white for stronger contrast */
 }
 
 .highlight {
@@ -107,16 +111,17 @@ body {
   grid-row: 4;
   justify-self: right;
   padding: 0.75rem 1.5rem;
-  background: #238636;
+  background: #0a74da;
   color: #ffffff;
   border-radius: 6px;
   font-weight: bold;
   text-decoration: none;
   transition: background 0.3s;
+  transform: scale(1.10);
 }
 
 .btn.resume:hover {
-  background: #2ea043;
+  background: #0761b5;
 }
 
 .item.image {
@@ -132,7 +137,7 @@ body {
   border-radius: 50%;
   object-fit: cover;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
-  border: 2px solid #000000; /* Added thicker border */
+  border: 3px solid #000000; /* Added thicker border */
 }
 
 /* Responsive for smaller screens */
@@ -497,4 +502,9 @@ a {
 
 a:hover {
   color: #21a1f1;
+}
+@media (max-width: 768px) {
+  #contact {
+    width: 90%;
+  }
 }
