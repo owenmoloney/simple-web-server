@@ -358,16 +358,6 @@ body {
   background-color: #444c56;
 }
 
-/* Tag styling (optional, if used elsewhere) */
-.tags span {
-  background: #333;
-  padding: 3px 8px;
-  margin: 2px;
-  border-radius: 5px;
-  font-size: 0.8rem;
-}
-
-
 /* Skills Section */
 #skills {
   background-color: #282c34;
@@ -389,19 +379,18 @@ body {
 /* Ticker Content (scrolling) */
 .ticker {
   display: flex;
-  width: max-content; /* allow it to grow */
   animation: scroll-left 20s linear infinite;
+  will-change: transform;
 }
 
 /* Each Skill */
 .skill {
-  flex: 0 0 auto;
+  flex: 0 0 120px; /* Fixed width instead of min-width */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 1rem;
-  min-width: 120px;
 }
 
 /* Skill Icon */
@@ -412,18 +401,36 @@ body {
   margin-bottom: 0.5rem;
 }
 
-/* Scroll Animation */
+/* Scroll Animation - Fixed version */
 @keyframes scroll-left {
   0% {
-    transform: translateX(0%);
+    transform: translateX(0);
   }
   100% {
     transform: translateX(-50%);
   }
 }
 
+/* Add this to fix the gap issue */
+.ticker:hover {
+  animation-play-state: paused;
+}
 
+/* Ensure seamless loop */
+.ticker-wrapper {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+  border-top: 1px solid #444;
+  border-bottom: 1px solid #444;
+  margin-bottom: 2rem;
+}
 
+.ticker {
+  display: flex;
+  animation: scroll-left 20s linear infinite;
+  will-change: transform;
+}
 
 /* Background style for section */
 #experience{
